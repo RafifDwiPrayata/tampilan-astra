@@ -1,0 +1,182 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+h4 {
+    color: black;
+    font-size: 24px;
+    margin: 16px 0;
+    font-weight: normal;
+}
+h6 {
+    font-weight: normal;
+    color: #67768E;
+    font-size: 18px;
+}
+.primary-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.primary-section {
+    background-image: linear-gradient(35deg, rgb(6, 0, 151) 0%, rgb(130, 4, 255) 73%, rgb(193, 15, 255) 100%);
+    padding: 100px;
+}
+.container {
+    max-width: 1280px;
+    padding: 30px;
+    margin: auto;
+}
+.navbar ul li a img {
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+.navbar {
+    justify-content: end;
+    display: flex;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+.navbar ul li {
+    margin: 0 10px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(170, 169, 169);
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: white;
+}
+
+/* PRIMARY SECTION */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .row .col h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: white;
+}
+.primary-section .container .row .col h6 {
+    color: white;
+    margin: 32px 0;
+}
+.primary-section .container .row .col a {
+    background-color: rgb(255, 205, 87);
+    padding: 30px 45px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* SECONDARY SECTION */
+.secondary-section .container .row {
+    margin-top: 70px;
+}
+
+/* THIRD SECTION */
+
+.third-section .container .row .col img {
+    width: 350px;
+    height: 400px;
+}
+
+/* FOURTH SECTION */
+.fourth-section .container {
+    padding: 100px 30px;
+}
+.fourth-section .container .row .col:first-child {
+    max-width: 500px;
+}
+
+/* FIFTH SECTION */
+.fifth-section {
+    background-color: #f9f6fe;
+}
+.fifth-section .container {
+    text-align: center;
+    width: 750px;
+    padding: 100px 30px;
+}
+.fifth-section .container .row .col {
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.fifth-section .container .row .col h6:first-of-type {
+    margin-top: 24px;
+    margin-bottom: 35px;
+}
+.fifth-section .container .row .col h6:last-of-type {
+    font-weight: bold;
+}
+
+/* SIXTH SECTION */
+.sixth-section .container {
+    padding: 140px 30px;
+}
+.sixth-section .container .row .col {
+    width: 300px;
+}
+
+/* SEVENTH SECTION  */
+.seventh-section {
+    background-image: linear-gradient(35deg, rgb(6, 0, 151) 0%, rgb(130, 4, 255) 73%, rgb(193, 15, 255) 100%);
+}
+.seventh-section .container {
+    text-align: center;
+    width: 750px;
+    padding: 80px 30px;
+}
+.seventh-section .container .row {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.seventh-section .container .row .col h2 {
+    margin-top: 24px;
+    margin-bottom: 35px;
+    color: white;
+}
+.seventh-section .container .row .col a {
+    background-color: rgb(255, 205, 87);
+    padding: 30px 45px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.eighth-section .container .row .col h6 a {
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nineth-section {
+    background-color: #f9f6fe;
+}
+.nineth-section .container .row {
+    justify-content: center;
+}
+html {
+    scroll-behavior: smooth;
+}
